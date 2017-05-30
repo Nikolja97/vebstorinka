@@ -1,0 +1,170 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url("../1.jpg");
+}
+
+.autherization {
+	padding: 36px 64px;
+	background: rgba(24,20,64,0.7);
+	margin: auto;
+	position: fixed;
+	left: 37%;
+	top: 20%;
+	z-index: 1055;
+}
+
+#mymodal {
+	display: none;
+	width: 100%;
+	height: 100vh;
+	overflow: none;
+	position: fixed;
+	z-index: 1056;
+
+}
+#mymodal2 {
+	display: none;
+	width: 100%;
+	height: 100vh;
+	overflow: none;
+	position: fixed;
+	z-index: 1200;
+}
+.autherization div {
+	display: flex;
+	flex-direction: column;
+}
+.autherization input {
+	width: 240px;
+	margin: 12px auto;
+}
+
+header{
+	display: flex !important;
+	flex-direction: row;
+	justify-content: center; 
+	border-bottom: solid 1px #e5e1d6;
+	background: rgba(24,20,64,0.5);
+}
+
+header div {
+	display: flex;
+	width: 200px;
+	height: 30px;
+	margin-left: -1px;
+	border-left: 1px grey solid;
+	border-right: 1px grey solid;
+}
+
+header div a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	margin: auto;
+	font: 12px Arial, Tahoma, Geneva, Helvetica, sans-serif;
+
+}
+#logo{
+	text-decoration: none;
+	color: white;
+}
+
+#logo h1 {
+	margin-left: 24px;
+}
+
+#left-panel {
+	background: rgba(24,20,64,0.5);
+	padding: 16px;
+	width: 240px;
+
+}
+
+#left-panel div {
+	display: flex;
+	width: 200px;
+	height: 30px;
+	margin: auto;
+}
+#left-panel a{
+	color: white;
+
+}
+#left-panel li {
+	display: flex;
+	height: 30px;
+	margin: 5px auto;
+	padding-left: 10px;
+}
+#left-panel li a {
+	text-decoration: none;
+}
+
+.content {
+	display:flex;
+}
+
+.right-side {
+	width: 100%;
+}
+
+.search-block {
+	margin: 36px 10% -128px auto;
+	width: 200px;
+}
+.search-block div {
+	display: flex;
+}
+
+.search-block div:nth-of-type(3) {
+	justify-content: space-between; 
+}
+.search-block img {
+	width: 36px;
+	height: 20px;
+}
+.search-block a {
+	margin: 4px;
+}
+
+.wrapper {
+	margin: 64px;
+	margin-right: 360px;
+}
+
+.wrapper h2 {
+	color: white;
+}
+
+.wrapper p {
+	color: white;
+}
+
+
+#mymodal2 .autherization {
+	z-index: 1200px;
+}
+
+#mybtn {
+	background: rgba(24,20,64,0.5);
+	padding: 8px;
+	color: white;
+	width: 120px;
+	display: flex;
+	text-decoration: none;
+	margin: auto;
+	margin-top: 128px;
+}
+#mybtn p{
+	
+	text-align: center;
+	margin: auto;
+}
+
+#mybtn:hover {
+	transform: scale(1.04);
+}
+#mybtn:active {
+	transform: scale(0.96);
+}
